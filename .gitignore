@@ -4,7 +4,7 @@
 .directory
 data_set/
 !data_set/simulado/
-
+.idea/
 # Files
 *.csv
 *.xlsx
