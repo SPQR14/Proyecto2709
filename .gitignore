@@ -4,7 +4,7 @@
 .directory
 data_set/
 !data_set/simulado/
-
+.idea/
 # Files
 *.csv
 *.xlsx
@@ -13,3 +13,4 @@ data_set/
 *.ods
 !control.xlsx
 
+.DS_Store
