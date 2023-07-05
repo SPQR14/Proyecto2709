@@ -4,9 +4,9 @@ import numpy as np
 import platform
 from pathlib import Path, PureWindowsPath
 
-real_historic_data = Path("../data_set/real/Chispazo.csv")
-simulated_data = Path('../data_set/simulado/espacio_muestral_simulado.csv')
-save_path = Path("../data_set/matrices_markovianas/")
+real_historic_data = Path("../data/real/Chispazo.csv")
+simulated_data = Path('../data/simulation/simulation.csv')
+save_path = Path("../data/")
 
 if not real_historic_data.exists():
     print("File not found in path")
