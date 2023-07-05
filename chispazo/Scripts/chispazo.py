@@ -15,4 +15,4 @@ def generar_sorteos():
 
 cols = 'R1 R2 R3 R4 R5'
 df = pd.DataFrame(generar_sorteos(), columns = cols.split())
-df.to_csv("..\..\Data_set\espacio_muestral_simulado.csv", index = False, header = True)
+df.to_csv("../data/simulation/simulation.csv", index = False, header = True)
