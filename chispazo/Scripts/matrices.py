@@ -8,6 +8,7 @@ real_historic_data = Path("../data/real/Chispazo.csv")
 simulated_data = Path('../data/simulation/simulation.csv')
 save_path = Path("../data/")
 
+
 if not real_historic_data.exists():
     print("File not found in path")
     sys.exit()
